@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montez|Rock+Salt|Shojumaru&display=swap');
+
+body {
+  box-sizing: border-box;
+}
+
+.site-branding__logo {
+  width: 200px;
+}
+
+.site-branding__name {
+  font-size: 3rem;
+  font-family: 'Rock Salt', cursive;
+  padding-top: 3rem;
+}
+
+header.header {
+  background-color: #8290D8;
+}
+
+/*VILLES*/
+
+.row-villes {
+  width: 30%;
+  margin-right: 1rem;
+}
+
+.row-villes a {
+  color: black;
+  border-bottom: none ;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+

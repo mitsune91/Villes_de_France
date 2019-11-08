@@ -1,0 +1,7 @@
+custom_weather.settings:
+  path: '/admin/custom_weather/settingsForm'
+  defaults:
+    _form: '\Drupal\custom_weather\Form\CustomWeatherSettingsForm'
+    _title: 'custom weather settings'
+  requirements:
+    _permission: 'custom weather settings'

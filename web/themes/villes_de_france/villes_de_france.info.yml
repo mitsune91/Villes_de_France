@@ -1,0 +1,9 @@
+name: villes_de_france
+type: theme
+description: Theme for " Les villes de France"
+core: 8.x
+# Defines the base theme
+base theme: bartik
+
+libraries:
+  - villes_de_france/global-styling

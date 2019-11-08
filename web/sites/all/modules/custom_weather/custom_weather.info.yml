@@ -1,0 +1,6 @@
+name: Custom Weather
+description: Custom weather module for city
+package: custom
+type: module
+version: 1.0
+core: 8.x

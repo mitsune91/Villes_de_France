@@ -1,0 +1,13 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function custom_weather_theme()
+{
+  return array(
+    'custom_weather' => array(
+      'variables' => array('location' => NULL, 'icon' => NULL, 'temperature' => NULL, 'description' => NULL),
+      'render element' => "children",
+    ),
+  );
+}
